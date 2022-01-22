@@ -91,7 +91,7 @@ Your task is to fork this repo and complete the following:
   - [Implemented] Add unit tests for any missing error cases
 - [ ] README
   - [ ] Explain any design decisions you made and why.
-       [] Added functionalities for mode and min calculataions
+       - [ ] Added functionalities for mode and min calculataions
        [] Added UnitTest funtion for summary endpoint
   - [ ] Imagine you're building the roadmap for this project over the next quarter. What features or updates would you suggest that we prioritize?
         Improvments:
