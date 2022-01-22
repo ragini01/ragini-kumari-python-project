@@ -92,16 +92,16 @@ Your task is to fork this repo and complete the following:
 - [ ] README
   - [ ] Explain any design decisions you made and why.
        - [ ] Added functionalities for mode and min calculataions
-       [] Added UnitTest funtion for summary endpoint
+       - [ ] Added UnitTest funtion for summary endpoint
   - [ ] Imagine you're building the roadmap for this project over the next quarter. What features or updates would you suggest that we prioritize?
         Improvments:
-        [] All the functions written inside app.py can be defined seprately (may be we can create controllers.py) and then call the functions in app.py while making HTTP requests
-        [] In each of the HTTP call, we are interacting with DB where we are creating the connections and then executing the queries. Instead of this, we can create a seprate               folder for db where we can create db.py files to make the connection as well as for writing the db queries
-        [] Some of the unit test codes are duplicate which can be reused 
+       - [ ] All the functions written inside app.py can be defined seprately (may be we can create controllers.py) and then call the functions in app.py while making HTTP requests
+       - [ ] In each of the HTTP call, we are interacting with DB where we are creating the connections and then executing the queries. Instead of this, we can create a seprate               folder for db where we can create db.py files to make the connection as well as for writing the db queries
+       - [ ] Some of the unit test codes are duplicate which can be reused 
         Roadmaps:
-        [] We can make use of an orchestration tool (i.e docker) here so that the application can easily deployed and run in a containerized environment
-        [] End points can be autenticated to make sure all the calls are secured (we can make use of a variety of API Gateways as solution)
-        [] As the application grow going forward and frequency of data also gets increased , we can not rely on SQLLite db as well as Flask framework. Here, the alternatives can           be a timeseries db, any kind of data-streaming designs  or if we are still sticked to SQLLite db then we might need to think of certain factors like how can we                   optimize the db in terms of normalizations, splitting the table into small tables by adding constraints, adding functions like aggregations, indexing etc
+       - [ ] We can make use of an orchestration tool (i.e docker) here so that the application can easily deployed and run in a containerized environment
+       - [ ] End points can be autenticated to make sure all the calls are secured (we can make use of a variety of API Gateways as solution)
+       - [ ] As the application grow going forward and frequency of data also gets increased , we can not rely on SQLLite db as well as Flask framework. Here, the alternatives can be a timeseries db, any kind of data-streaming designs  or if we are still sticked to SQLLite db then we might need to think of certain factors like how can we                optimize the db in terms of normalizations, splitting the table into small tables by adding constraints, adding functions like aggregations, indexing etc
         
 
 When you're finished, send your git repo link to platform@canary.is. If you have any questions, please do not hesitate to reach out!
